@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>c64 build log</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+<tt>
+Build started on: <u>19-01-2016 at 14:55.27</u><br />
+Build ended on: <u>19-01-2016 at 14:55.31</u><p />
+<b>-------------- Build: Debug in c64 (compiler: GNU GCC Compiler)---------------</b><br />
+g++ -Wall -fexceptions -std=c++11 -g -Iinclude/sid -Iinclude/service -Iinclude -Iinclude/vic -Iinclude/cia -c /home/c64/source/c64/main.cpp -o obj/Debug/main.o<br />
+g++ -Wall -fexceptions -std=c++11 -g -Iinclude/sid -Iinclude/service -Iinclude -Iinclude/vic -Iinclude/cia -c /home/c64/source/c64/src/service/CInterface.cpp -o obj/Debug/src/service/CInterface.o<br />
+g++ -Wall -fexceptions -std=c++11 -g -Iinclude/sid -Iinclude/service -Iinclude -Iinclude/vic -Iinclude/cia -c /home/c64/source/c64/src/sid/BandPassFilter.cpp -o obj/Debug/src/sid/BandPassFilter.o<br />
+g++ -Wall -fexceptions -std=c++11 -g -Iinclude/sid -Iinclude/service -Iinclude -Iinclude/vic -Iinclude/cia -c /home/c64/source/c64/src/sid/BaseFilter.cpp -o obj/Debug/src/sid/BaseFilter.o<br />
+g++ -Wall -fexceptions -std=c++11 -g -Iinclude/sid -Iinclude/service -Iinclude -Iinclude/vic -Iinclude/cia -c /home/c64/source/c64/src/sid/HighPassFilter.cpp -o obj/Debug/src/sid/HighPassFilter.o<br />
+g++ -Wall -fexceptions -std=c++11 -g -Iinclude/sid -Iinclude/service -Iinclude -Iinclude/vic -Iinclude/cia -c /home/c64/source/c64/src/sid/LowPassFilter.cpp -o obj/Debug/src/sid/LowPassFilter.o<br />
+g++ -Wall -fexceptions -std=c++11 -g -Iinclude/sid -Iinclude/service -Iinclude -Iinclude/vic -Iinclude/cia -c /home/c64/source/c64/src/sid/Mixer.cpp -o obj/Debug/src/sid/Mixer.o<br />
+g++ -Wall -fexceptions -std=c++11 -g -Iinclude/sid -Iinclude/service -Iinclude -Iinclude/vic -Iinclude/cia -c /home/c64/source/c64/src/sid/Sid.cpp -o obj/Debug/src/sid/Sid.o<br />
+rm -f bin/Debug/libMemoryManager.a
+ar -r -s bin/Debug/libMemoryManager.a obj/Debug/main.o obj/Debug/src/cia/Cia.o obj/Debug/src/service/C64Component.o obj/Debug/src/service/CInterface.o obj/Debug/src/service/Clock.o obj/Debug/src/service/Config.o obj/Debug/src/service/Loader.o obj/Debug/src/service/MemoryManager.o obj/Debug/src/service/MemoryMap.o obj/Debug/src/sid/AbstractState.o obj/Debug/src/sid/AttackState.o obj/Debug/src/sid/BandPassFilter.o obj/Debug/src/sid/BaseFilter.o obj/Debug/src/sid/DecayState.o obj/Debug/src/sid/EnvelopeGenerator.o obj/Debug/src/sid/HighPassFilter.o obj/Debug/src/sid/LowPassFilter.o obj/Debug/src/sid/Mixer.o obj/Debug/src/sid/Oscilator.o obj/Debug/src/sid/ReleaseState.o obj/Debug/src/sid/Sid.o obj/Debug/src/sid/SustainState.o obj/Debug/src/sid/WaveViewer.o obj/Debug/src/vic/CharGen.o obj/Debug/src/vic/Screen.o obj/Debug/src/vic/VIC.o<br />
+ar: creating bin/Debug/libMemoryManager.a<br />
+Output file is bin/Debug/libMemoryManager.a with size 2.20 MB<br />
+<font color="#0000ff">Process terminated with status 0 (0 minute(s), 4 second(s))</font><br />
+<font color="#0000ff">0 error(s), 0 warning(s) (0 minute(s), 4 second(s))</font><br />
+</tt>
+</body>
+</html>

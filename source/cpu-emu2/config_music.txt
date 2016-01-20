@@ -1,0 +1,7 @@
+memorySync 1
+load 0000 basic-start.rom
+load 0801 MusicIrq.bin
+load 0283 memsize.rom
+load e000 kernal.rom
+load d000 character.rom
+load a000 basic.rom

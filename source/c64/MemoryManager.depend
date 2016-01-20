@@ -1,0 +1,368 @@
+# depslib dependency file v1.0
+1446711227 source:/home/c64/source/MemoryManager/main.cpp
+	<iostream>
+	<MemoryManager.h>
+
+1444859587 source:/home/c64/source/MemoryManager/src/Kernel.cpp
+	"Kernel.h"
+
+1444893618 /home/c64/source/MemoryManager/include/Kernel.h
+	<iostream>
+	<fstream>
+	"MemoryManager.h"
+
+1446711227 source:/home/c64/source/MemoryManager/src/Loader.cpp
+	"Loader.h"
+
+1446711227 /home/c64/source/MemoryManager/include/Loader.h
+	"MemoryManager.h"
+	<iostream>
+	<fstream>
+
+1446720398 /home/c64/source/MemoryManager/include/MemoryManager.h
+	<sys/types.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<cstring>
+	<iostream>
+	"MemoryMap.h"
+	<thread>
+	<chrono>
+
+1446711227 source:/home/c64/source/MemoryManager/src/MemoryManager.cpp
+	"MemoryManager.h"
+
+1446720023 source:/home/c64/source/MemoryManager/src/MemoryMap.cpp
+	"MemoryMap.h"
+	<iostream>
+	<cstdio>
+
+1446720338 /home/c64/source/MemoryManager/include/MemoryMap.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<iomanip>
+	<sstream>
+	"MemoryManager.h"
+
+1444570865 /home/c64/source/sid/include/Sid.h
+	"Oscilator.h"
+	"Mixer.h"
+
+1445370248 /home/c64/source/sid/include/Oscilator.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_audio.h>
+	<cmath>
+	<random>
+	"WaveViewer.h"
+	"EnvelopeGenerator.h"
+
+1444566894 /home/c64/source/sid/include/WaveViewer.h
+	<SDL2/SDL.h>
+	<cstdio>
+	<vector>
+
+1444566894 /home/c64/source/sid/include/EnvelopeGenerator.h
+	"AbstractState.h"
+
+1444566894 /home/c64/source/sid/include/AbstractState.h
+	"EnvelopeGenerator.h"
+	<memory>
+
+1445370912 /home/c64/source/sid/include/Mixer.h
+	"Oscilator.h"
+	"LowPassFilter.h"
+	"HighPassFilter.h"
+	"BandPassFilter.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_audio.h>
+
+1444566894 /home/c64/source/sid/include/LowPassFilter.h
+	"BaseFilter.h"
+
+1444566894 /home/c64/source/sid/include/BaseFilter.h
+	<SDL2/SDL.h>
+	<cmath>
+
+1444566894 /home/c64/source/sid/include/HighPassFilter.h
+	"BaseFilter.h"
+
+1444566894 /home/c64/source/sid/include/BandPassFilter.h
+	"BaseFilter.h"
+
+1446711227 source:/home/c64/source/C64Emu/main.cpp
+	<iostream>
+	<MemoryManager.h>
+
+1446720398 /home/c64/source/C64Emu/include/service/MemoryManager.h
+	<sys/types.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<cstring>
+	<iostream>
+	"MemoryMap.h"
+	<thread>
+	<chrono>
+
+1446720338 /home/c64/source/C64Emu/include/service/MemoryMap.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<iomanip>
+	<sstream>
+	"MemoryManager.h"
+
+1446711227 source:/home/c64/source/C64Emu/src/service/Loader.cpp
+	"Loader.h"
+
+1446711227 /home/c64/source/C64Emu/include/service/Loader.h
+	"MemoryManager.h"
+	<iostream>
+	<fstream>
+
+1446720492 source:/home/c64/source/C64Emu/src/service/MemoryManager.cpp
+	"MemoryManager.h"
+
+1446720023 source:/home/c64/source/C64Emu/src/service/MemoryMap.cpp
+	"MemoryMap.h"
+	<iostream>
+	<cstdio>
+
+1449526239 source:/home/c64/source/c64/main.cpp
+	<iostream>
+	"MemoryManager.h"
+	"Sid.h"
+	"Clock.h"
+	"Loader.h"
+
+1452949812 /home/c64/source/c64/include/service/MemoryManager.h
+	<iostream>
+	"MemoryMap.h"
+	<thread>
+	<chrono>
+
+1452949933 /home/c64/source/c64/include/service/MemoryMap.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<iomanip>
+	<sstream>
+	"MemoryManager.h"
+	"C64Component.h"
+	<string>
+
+1452724927 source:/home/c64/source/c64/src/service/Loader.cpp
+	"Loader.h"
+
+1452949734 /home/c64/source/c64/include/service/Loader.h
+	"MemoryManager.h"
+	"Config.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+
+1452951300 source:/home/c64/source/c64/src/service/MemoryManager.cpp
+	"MemoryManager.h"
+
+1452951249 source:/home/c64/source/c64/src/service/MemoryMap.cpp
+	"MemoryMap.h"
+	<iostream>
+	<cstdio>
+
+1446711227 source:/home/c64/source/c64/src/sid/AbstractState.cpp
+	"AbstractState.h"
+
+1450887089 /home/c64/source/c64/include/sid/AbstractState.h
+	"EnvelopeGenerator.h"
+	"string.h"
+	<memory>
+
+1452587311 /home/c64/source/c64/include/sid/EnvelopeGenerator.h
+	"AbstractState.h"
+	"Sid.h"
+
+1450887089 source:/home/c64/source/c64/src/sid/AttackState.cpp
+	"AttackState.h"
+	<iostream>
+
+1452949949 /home/c64/source/c64/include/sid/AttackState.h
+	"AbstractState.h"
+	"EnvelopeGenerator.h"
+	"SustainState.h"
+	"DecayState.h"
+	"ReleaseState.h"
+
+1450887089 /home/c64/source/c64/include/sid/SustainState.h
+	"AbstractState.h"
+	"ReleaseState.h"
+
+1450887089 /home/c64/source/c64/include/sid/ReleaseState.h
+	"AbstractState.h"
+	"AttackState.h"
+
+1450887089 /home/c64/source/c64/include/sid/DecayState.h
+	"AbstractState.h"
+	"SustainState.h"
+
+1446711227 source:/home/c64/source/c64/src/sid/BandPassFilter.cpp
+	"BandPassFilter.h"
+	<iostream>
+
+1446711227 /home/c64/source/c64/include/sid/BandPassFilter.h
+	"BaseFilter.h"
+
+1453211726 /home/c64/source/c64/include/sid/BaseFilter.h
+	<SDL2/SDL.h>
+	<cmath>
+
+1446711227 source:/home/c64/source/c64/src/sid/BaseFilter.cpp
+	"BaseFilter.h"
+
+1452587311 source:/home/c64/source/c64/src/sid/DecayState.cpp
+	"DecayState.h"
+
+1452950817 source:/home/c64/source/c64/src/sid/EnvelopeGenerator.cpp
+	"EnvelopeGenerator.h"
+	"AttackState.h"
+	<iostream>
+
+1453211254 source:/home/c64/source/c64/src/sid/HighPassFilter.cpp
+	"HighPassFilter.h"
+	<iostream>
+
+1446711227 /home/c64/source/c64/include/sid/HighPassFilter.h
+	"BaseFilter.h"
+
+1453211260 source:/home/c64/source/c64/src/sid/LowPassFilter.cpp
+	"LowPassFilter.h"
+	<iostream>
+
+1446711227 /home/c64/source/c64/include/sid/LowPassFilter.h
+	"BaseFilter.h"
+
+1452587311 source:/home/c64/source/c64/src/sid/Mixer.cpp
+	"Mixer.h"
+
+1453211715 /home/c64/source/c64/include/sid/Mixer.h
+	"Oscilator.h"
+	"LowPassFilter.h"
+	"HighPassFilter.h"
+	"BandPassFilter.h"
+	"Sid.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_audio.h>
+
+1452950009 /home/c64/source/c64/include/sid/Oscilator.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_audio.h>
+	<cmath>
+	<random>
+	"WaveViewer.h"
+	"EnvelopeGenerator.h"
+
+1446711227 /home/c64/source/c64/include/sid/WaveViewer.h
+	<SDL2/SDL.h>
+	<cstdio>
+	<vector>
+
+1452950662 source:/home/c64/source/c64/src/sid/Oscilator.cpp
+	"Oscilator.h"
+	<future>
+
+1452587311 source:/home/c64/source/c64/src/sid/ReleaseState.cpp
+	"ReleaseState.h"
+
+1452950373 source:/home/c64/source/c64/src/sid/Sid.cpp
+	"Sid.h"
+	<iostream>
+
+1452950107 /home/c64/source/c64/include/sid/Sid.h
+	"Oscilator.h"
+	"Mixer.h"
+	"MemoryManager.h"
+	"C64Component.h"
+	<mutex>
+
+1452950399 source:/home/c64/source/c64/src/sid/SustainState.cpp
+	"SustainState.h"
+
+1452950872 source:/home/c64/source/c64/src/sid/WaveViewer.cpp
+	"WaveViewer.h"
+	<iostream>
+
+1452724804 source:/home/c64/source/c64/src/service/Clock.cpp
+	"Clock.h"
+
+1452949690 /home/c64/source/c64/include/service/Clock.h
+	"MemoryManager.h"
+	"C64Component.h"
+	<vector>
+	<thread>
+	<chrono>
+
+1452949629 /home/c64/source/c64/include/service/C64Component.h
+	"MemoryManager.h"
+
+1452724851 source:/home/c64/source/c64/src/service/C64Component.cpp
+	"C64Component.h"
+
+1453154583 source:/home/c64/source/c64/src/service/CInterface.cpp
+	"C64Component.h"
+	<iostream>
+	<unistd.h>
+	"MemoryManager.h"
+	"Sid.h"
+	"Clock.h"
+	"Loader.h"
+	"VIC.h"
+	"Screen.h"
+	"Cia.h"
+
+1452587311 source:/home/c64/source/c64/src/vic/CharGen.cpp
+	"CharGen.h"
+	<iostream>
+	<fstream>
+
+1452950160 /home/c64/source/c64/include/vic/CharGen.h
+	<iostream>
+
+1452950313 source:/home/c64/source/c64/src/vic/Screen.cpp
+	"Screen.h"
+	<SDL2/SDL.h>
+	<iostream>
+	"VIC.h"
+
+1452612582 /home/c64/source/c64/include/vic/Screen.h
+	<SDL2/SDL.h>
+	<map>
+	"VIC.h"
+	"C64Component.h"
+	"MemoryManager.h"
+	"Cia.h"
+
+1453162623 /home/c64/source/c64/include/vic/VIC.h
+	"CharGen.h"
+	"Screen.h"
+	<iostream>
+	"C64Component.h"
+
+1453162605 source:/home/c64/source/c64/src/vic/VIC.cpp
+	"VIC.h"
+	<iostream>
+
+1452951979 source:/home/c64/source/c64/src/cia/Cia.cpp
+	"Cia.h"
+	<iostream>
+	<SDL2/SDL.h>
+
+1452587311 /home/c64/source/c64/include/cia/Cia.h
+	<SDL2/SDL.h>
+	"MemoryManager.h"
+	"C64Component.h"
+	<mutex>
+	<ctime>
+
+1452724876 source:/home/c64/source/c64/src/service/Config.cpp
+	"Config.h"
+
+1452949719 /home/c64/source/c64/include/service/Config.h
+

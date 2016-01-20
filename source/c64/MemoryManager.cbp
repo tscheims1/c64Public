@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="c64" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="src/sid/;include/cia/;include/service/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MemoryManager" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="include/sid" />
+					<Add directory="include/service" />
+					<Add directory="include" />
+					<Add directory="include/vic" />
+					<Add directory="include/cia" />
+				</Compiler>
+				<Linker>
+					<Add option="-lSDL2" />
+					<Add option="-lSDL2main" />
+					<Add option="-lSDL2_ttf" />
+					<Add option="-lpthread" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MemoryManager" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="include/service" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/cia/Cia.h" />
+		<Unit filename="include/service/C64Component.h" />
+		<Unit filename="include/service/Clock.h" />
+		<Unit filename="include/service/Config.h" />
+		<Unit filename="include/service/Loader.h" />
+		<Unit filename="include/service/MemoryManager.h" />
+		<Unit filename="include/service/MemoryMap.h" />
+		<Unit filename="include/sid/AbstractState.h" />
+		<Unit filename="include/sid/AttackState.h" />
+		<Unit filename="include/sid/BandPassFilter.h" />
+		<Unit filename="include/sid/BaseFilter.h" />
+		<Unit filename="include/sid/DecayState.h" />
+		<Unit filename="include/sid/EnvelopeGenerator.h" />
+		<Unit filename="include/sid/HighPassFilter.h" />
+		<Unit filename="include/sid/LowPassFilter.h" />
+		<Unit filename="include/sid/Mixer.h" />
+		<Unit filename="include/sid/Oscilator.h" />
+		<Unit filename="include/sid/ReleaseState.h" />
+		<Unit filename="include/sid/Sid.h" />
+		<Unit filename="include/sid/SustainState.h" />
+		<Unit filename="include/sid/WaveViewer.h" />
+		<Unit filename="include/sid/pch.h" />
+		<Unit filename="include/vic/CharGen.h" />
+		<Unit filename="include/vic/Screen.h" />
+		<Unit filename="include/vic/VIC.h" />
+		<Unit filename="main.cpp">
+			<Option virtualFolder="include/service/" />
+		</Unit>
+		<Unit filename="src/cia/Cia.cpp">
+			<Option virtualFolder="src/sid/" />
+		</Unit>
+		<Unit filename="src/service/C64Component.cpp" />
+		<Unit filename="src/service/CInterface.cpp" />
+		<Unit filename="src/service/Clock.cpp" />
+		<Unit filename="src/service/Config.cpp" />
+		<Unit filename="src/service/Loader.cpp" />
+		<Unit filename="src/service/MemoryManager.cpp" />
+		<Unit filename="src/service/MemoryMap.cpp" />
+		<Unit filename="src/sid/AbstractState.cpp" />
+		<Unit filename="src/sid/AttackState.cpp" />
+		<Unit filename="src/sid/BandPassFilter.cpp" />
+		<Unit filename="src/sid/BaseFilter.cpp" />
+		<Unit filename="src/sid/DecayState.cpp" />
+		<Unit filename="src/sid/EnvelopeGenerator.cpp" />
+		<Unit filename="src/sid/HighPassFilter.cpp" />
+		<Unit filename="src/sid/LowPassFilter.cpp" />
+		<Unit filename="src/sid/Mixer.cpp">
+			<Option virtualFolder="include/cia/" />
+		</Unit>
+		<Unit filename="src/sid/Oscilator.cpp" />
+		<Unit filename="src/sid/ReleaseState.cpp" />
+		<Unit filename="src/sid/Sid.cpp" />
+		<Unit filename="src/sid/SustainState.cpp" />
+		<Unit filename="src/sid/WaveViewer.cpp" />
+		<Unit filename="src/vic/CharGen.cpp" />
+		<Unit filename="src/vic/Screen.cpp" />
+		<Unit filename="src/vic/VIC.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

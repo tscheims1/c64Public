@@ -1,0 +1,4 @@
+delayForSid 1
+load 0000 cave.rom
+load 0000 drawing-loop.rom
+load d418 disable-sid-vol.rom

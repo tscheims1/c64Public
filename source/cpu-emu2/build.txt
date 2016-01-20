@@ -1,0 +1,42 @@
+o2c
+gcc -W -Wall -g -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory -I/usr/include/SDL2 -D_REENTRANT -L/usr/lib/x86_64-linux-gnu -lSDL2 -c src/graphic/graphic-main.c
+gcc -lstdc++ -W -Wall -Wunused-variable -Wunused-parameter -g  -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory  `sdl2-config --cflags --libs` -c src/graphic/graphic-main.c 
+o2c
+gcc -W -Wall -g -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory -I/usr/include/SDL2 -D_REENTRANT -L/usr/lib/x86_64-linux-gnu -lSDL2 -c src/graphic/graphic.c
+gcc -lstdc++ -W -Wall -Wunused-variable -Wunused-parameter -g  -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory  `sdl2-config --cflags --libs` -c src/graphic/graphic.c 
+o2c
+gcc -W -Wall -g -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory -I/usr/include/SDL2 -D_REENTRANT -L/usr/lib/x86_64-linux-gnu -lSDL2 -c src/cpu/cpu.c
+gcc -lstdc++ -W -Wall -Wunused-variable -Wunused-parameter -g  -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory  `sdl2-config --cflags --libs` -c src/cpu/cpu.c 
+o2c
+gcc -W -Wall -g -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory -I/usr/include/SDL2 -D_REENTRANT -L/usr/lib/x86_64-linux-gnu -lSDL2 -c src/cpu/cpu-util.c
+gcc -lstdc++ -W -Wall -Wunused-variable -Wunused-parameter -g  -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory  `sdl2-config --cflags --libs` -c src/cpu/cpu-util.c 
+o2c
+gcc -W -Wall -g -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory -I/usr/include/SDL2 -D_REENTRANT -L/usr/lib/x86_64-linux-gnu -lSDL2 -c src/cpu/decode.c
+gcc -lstdc++ -W -Wall -Wunused-variable -Wunused-parameter -g  -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory  `sdl2-config --cflags --libs` -c src/cpu/decode.c 
+o2c
+gcc -W -Wall -g -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory -I/usr/include/SDL2 -D_REENTRANT -L/usr/lib/x86_64-linux-gnu -lSDL2 -c src/cpu/mu-code.c
+gcc -lstdc++ -W -Wall -Wunused-variable -Wunused-parameter -g  -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory  `sdl2-config --cflags --libs` -c src/cpu/mu-code.c 
+o2c
+gcc -W -Wall -g -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory -I/usr/include/SDL2 -D_REENTRANT -L/usr/lib/x86_64-linux-gnu -lSDL2 -c src/cpu/opcode_tbl.c
+gcc -lstdc++ -W -Wall -Wunused-variable -Wunused-parameter -g  -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory  `sdl2-config --cflags --libs` -c src/cpu/opcode_tbl.c 
+o2c
+gcc -W -Wall -g -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory -I/usr/include/SDL2 -D_REENTRANT -L/usr/lib/x86_64-linux-gnu -lSDL2 -c src/cpu/register.c
+gcc -lstdc++ -W -Wall -Wunused-variable -Wunused-parameter -g  -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory  `sdl2-config --cflags --libs` -c src/cpu/register.c 
+o2c
+gcc -W -Wall -g -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory -I/usr/include/SDL2 -D_REENTRANT -L/usr/lib/x86_64-linux-gnu -lSDL2 -c src/printers/print-cpu.c
+gcc -lstdc++ -W -Wall -Wunused-variable -Wunused-parameter -g  -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory  `sdl2-config --cflags --libs` -c src/printers/print-cpu.c 
+o2c
+gcc -W -Wall -g -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory -I/usr/include/SDL2 -D_REENTRANT -L/usr/lib/x86_64-linux-gnu -lSDL2 -c src/memory/memory.c
+gcc -lstdc++ -W -Wall -Wunused-variable -Wunused-parameter -g  -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory  `sdl2-config --cflags --libs` -c src/memory/memory.c 
+o2c
+gcc -W -Wall -g -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory -I/usr/include/SDL2 -D_REENTRANT -L/usr/lib/x86_64-linux-gnu -lSDL2 -c src/alu/flags.c
+gcc -lstdc++ -W -Wall -Wunused-variable -Wunused-parameter -g  -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory  `sdl2-config --cflags --libs` -c src/alu/flags.c 
+o2c
+gcc -W -Wall -g -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory -I/usr/include/SDL2 -D_REENTRANT -L/usr/lib/x86_64-linux-gnu -lSDL2 -c src/alu/alu.c
+gcc -lstdc++ -W -Wall -Wunused-variable -Wunused-parameter -g  -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory  `sdl2-config --cflags --libs` -c src/alu/alu.c 
+o2c
+gcc -W -Wall -g -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory -I/usr/include/SDL2 -D_REENTRANT -L/usr/lib/x86_64-linux-gnu -lSDL2 -c src/cpu/disassemble.c
+gcc -lstdc++ -W -Wall -Wunused-variable -Wunused-parameter -g  -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory  `sdl2-config --cflags --libs` -c src/cpu/disassemble.c 
+o2c
+gcc -W -Wall -g -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory -I/usr/include/SDL2 -D_REENTRANT -L/usr/lib/x86_64-linux-gnu -lSDL2 -c src/cpu/parser.c
+gcc -lstdc++ -W -Wall -Wunused-variable -Wunused-parameter -g  -Isrc/cpu -Isrc/printers -Isrc/alu -Isrc/memory  `sdl2-config --cflags --libs` -c src/cpu/parser.c 

@@ -1,0 +1,6 @@
+Download WinVice (any version should do) and extract included
+kernal
+basic
+chargen
+into /usr/lib/vice/C64 as root
+
